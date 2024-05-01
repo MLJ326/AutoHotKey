@@ -4,6 +4,7 @@
 ; CheckSuspend: 1 = Suspended = QWERTY layout
 ; CheckSuspend: -1 = Not Suspended = DVORAK layout
 ; Initializes as DVORAK
+; From: https://github.com/MLJ326/AutoHotKey
 
 #SuspendExempt
 	CheckSuspend := -1
