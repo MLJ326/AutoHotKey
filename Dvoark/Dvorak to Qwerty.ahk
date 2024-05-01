@@ -1,10 +1,9 @@
 #Requires AutoHotkey v2.0
-; Use F12 to control keyboard
-; Uses DVOARK Layout
-; Starts Suspended = DVOARK layout
-; Not Suspended = QWERTY layout
-; CheckSuspend: 1 = Suspended
-; CheckSuspend: -1 = Not Suspended
+; Use F12 to control keyboard layout
+; Uses DVORAK layout
+; CheckSuspend: 1 = Suspended = DVORAK layout
+; CheckSuspend: -1 = Not Suspended = QWERTY layout
+; Initializes as DVORAK
 
 #SuspendExempt
 	CheckSuspend := 1
@@ -47,45 +46,44 @@
 
 ; DVORAK to QWERTY mapping (Active)
 
-	[::-
-	]::=
+[::-
+]::=
 
-	'::q
-	,::w
-	.::e
-	p::r
-	y::t
-	f::y
-	g::u
-	c::i
-	r::o
-	l::p
-	/::[
-	=::]
-	;\::\
+'::q
+,::w
+.::e
+p::r
+y::t
+f::y
+::u
+c::i
+r::o
+l::p
+/::[
+=::]
+;\::\
 
-	;a::a
-	o::s
-	e::d
-	u::f
-	i::g
-	d::h
-	h::j
-	t::k
-	n::l
-	s::;
-	-::'
+;a::a
+o::s
+e::d
+u::f
+i::g
+d::h
+h::j
+t::k
+n::l
+s::;
+-::'
 
-	`;::z
-	q::x
-	j::c
-	k::v
-	x::b
-	b::n
-	;m::m
-	w::,
-	v::.
-	z::/
-
+`;::z
+q::x
+j::c
+k::v
+x::b
+b::n
+;m::m
+w::,
+v::.
+z::/
 
 Suspend
