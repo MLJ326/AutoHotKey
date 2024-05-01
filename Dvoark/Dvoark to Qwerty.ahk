@@ -1,22 +1,18 @@
 #Requires AutoHotkey v2.0
 ; Use F12 to control keyboard
 ; Uses DVOARK Layout
-; Starts Suspended = DVOARK
-; Not Suspended = QWERTY
+; Starts Suspended = DVOARK layout
+; Not Suspended = QWERTY layout
 ; CheckSuspend: 1 = Suspended
 ; CheckSuspend: -1 = Not Suspended
 
-
 #SuspendExempt
-
 	CheckSuspend := 1
-
 	F12::
 	{
 		global CheckSuspend := Checksuspend*-1
 		Suspend
 	}
-	
 	~Ctrl::
 	{
 		if (CheckSuspend = 1) {
@@ -27,7 +23,6 @@
 			Suspend 1
 		}
 	}
-	
 	~Alt::
 	{
 		if (CheckSuspend = 1) {
@@ -38,7 +33,6 @@
 				Suspend 1
 		}
 	}
-	
 	~LWin::
 	{
 		if (CheckSuspend = 1) {
@@ -49,23 +43,7 @@
 				Suspend 1
 		}
 	}
-
 #SuspendExempt False
-
-
-; Logitech keyboard extra keys remap
-
-	sc16C::return
-	sc132::return
-	sc16D::return
-	sc110::Media_Prev
-	sc122::Media_Play_Pause
-	sc119::Media_Next
-	sc120::Volume_Mute
-	sc12E::Volume_Down
-	sc130::Volume_Up
-	sc121::DllCall("LockWorkStation")
-
 
 ; DVORAK to QWERTY mapping (Active)
 
