@@ -1,5 +1,6 @@
 #Requires AutoHotkey v2.0
 ; Moves the mouse every NumofMinute minutes, Repeat amount of times
+; From: https://github.com/MLJ326/AutoHotKey
 
 NumofMinute := 1
 Repeat := 60
