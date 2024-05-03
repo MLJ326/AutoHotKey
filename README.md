@@ -10,21 +10,26 @@ Scripts requires [AutoHotKey] version 2.0.
 For Dvorak input users that wants Qwerty shortcuts.
 The script lauches suspended so the machine maintain as Dvorak input.
 Holding down Ctrl, Alt, and/or Win key would temporary activate script and allows for Qwerty shorcuts.
-F12 also servers as a switch to allow for more permanant switch between Dvorak and Qwerty layout (for game mode or non-Dvorak user usage).
+F12 also servers as a switch to allow for more permanant switch between Dvorak and Qwerty layout (for game mode or non-Dvorak user).
 
 ## Qwerty to Dvorak
 For Qwerty input users that wants Dvorak with Qwerty shortcuts.
 The script lauches as Dvorak layout.
 Holding down Ctrl, Alt, and/or Win key would suspend the script and it will temporary revert back Qwerty layout.
-F12 also servers as a switch to allow for more permanant switch between Dvorak and Qwerty layout (game mode or for non-Dvorak user usage).
+F12 also servers as a switch to allow for more permanant switch between Dvorak and Qwerty layout (game mode or for non-Dvorak user).
 
 ## Extras
 - Move.ahk
-A short script to move the mouse to avoid certain situations. Current default is moving once a minute, for 60 mintues.
+
+  A short script to move the mouse to avoid certain situations. Current default is moving once a minute, for 60 mintues.
+  
 - You are now a lefty.ahk
-A short script that changes left and right mouse click. May have some kind of use in the future.
+
+  A short script that changes left and right mouse click. May have some kind of use in the future.
+  
 - Modifier.ahk
-Used as a reference.
+
+  Used as a reference.
 
 ## Installation
 AHK Scripts requires [AutoHotKey] version 2.0.
